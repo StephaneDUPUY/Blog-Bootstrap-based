@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Un blog pour des devs</title>
+  <!-- Boostrap loader -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS library to manage icon -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body class="app container">
@@ -38,15 +41,25 @@
     </nav>
   </header>
 
-  <div class="text-center">
+  <div class="text-center my-4">
     <h1>L'espace des devs</h1>
     <p>Un blog collaboratif de développeurs web dérivant délibéremment dans l'espace</p>
   </div>
 
-  <div class="row no-gutters">
-    <div class="app-main col">
-      <p><a href="https://getbootstrap.com/?">Site officiel Bootstrap</a></p>
-    </div>
+  <div class="text-center my-4">
+    <!-- add inline list -->
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#"><i class="fa fa-facebook-square" style="font-size: 30px"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="fa fa-twitter-square" style="font-size: 30px"></i></a></li>
+      <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin-square" style="font-size: 30px"></i></a></li>
+    </ul>
+
+    <!-- add list without style but responsive -->
+    <ul class="list-unstyled d-md-inline-flex">
+      <li class="ml-md-3"><a href="#">Contactez-nous</a></li>
+      <li class="ml-md-3"><a href="#">Qui sommes-nous ?</a></li>
+      <li class="ml-md-3"><a href="#">Mentions légales</a></li>
+    </ul>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
